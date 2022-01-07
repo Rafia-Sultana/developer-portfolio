@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 40px;
@@ -11,6 +12,7 @@ color:darkgoldenrod;
 section{
 
     display:flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -29,4 +31,12 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
 background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/right-side1.jog.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width img{
+    width: 70%;
 }
