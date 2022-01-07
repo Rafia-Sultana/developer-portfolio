@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+font-family: 'Sanchez', serif;
     margin: 0;
 }
 h1{
@@ -23,35 +24,44 @@ color:darkgoldenrod;
 }
 .link-button{
     text-decoration: none;
- background-image: linear-gradient(orange,tomato);
+ background-image: linear-gradient(salmon,tomato);
  font-weight: 900;
     padding: 10px 20px ;
     border-radius: 5px;
 }
-.top-banner{
-    background-image: url(images/top-banner.png);
-background-repeat: no-repeat;
-}
-.dream-big{
-    background-image: url(images/right-side1.jog.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-}
-.experience-item{
-    width: 40%;
+
+
+.item{
+    width: 20%;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 15px;
-    border-radius: 10px;
-box-shadow: 10px 10px 40px yellowgreen;
+    border-radius: 50px;
+    background-color:lightblue;
+    box-shadow: 10px 10px 40px yellowgreen;
 
 }
-.experience-area{
+.item1{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    border-radius: 50px;
+    background-color:lightpink;
+    box-shadow: 10px 10px 40px yellowgreen;
 
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position:left ;
 }
+.item2{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    border-radius: 50px;
+    background-color:lightsalmon;
+    box-shadow: 10px 10px 40px yellowgreen;
+
+}
+
 #web-dev-exp{
     border-left: 7px solid;
     border-image: linear-gradient(blue,cyan);
@@ -62,6 +72,50 @@ box-shadow: 10px 10px 40px yellowgreen;
     border-image: linear-gradient(tomato,purple);
     border-image-slice: 1;
 }
-footer p{
+#mymiss{
     text-align: center;
 }
+.scroll{
+    margin-left: 70px;
+}
+
+.pic_box img{
+    width : 200px;
+    }
+    .color-red{
+        color:red;
+        font-size: 20px;
+    }
+    .color-white{
+        font-size: 20px;
+        color:white;
+    }
+    .hard{
+        font-size: 15x;
+        color:white;
+    }
+    #webexxp{
+        border-left: 5px solid;
+        border-image: linear-gradient(tomato,salmon);
+        border-image-slice: 2;
+        border-radius: 30px;
+    }
+    .bolding{
+        font-weight: 2000;
+      
+        font-size:40px;
+    }
+    .pp{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:20px;
+
+    }
+
+footer p{
+    text-align: center;
+    height:100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color:black;
+}
+
